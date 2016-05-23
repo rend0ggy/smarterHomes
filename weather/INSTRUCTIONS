@@ -1,0 +1,21 @@
+The files in this folder:
+
+1. weather.html - Is a template which outputs the weather conditions to the client
+2. getWeather.sh - This script downloads the HTML page containing the weather conditions from the BOM. This can be swapped for a C program or a PHP script. It redownloads the web page every hour
+3. w.d - This is the HTML page that the above script downloads
+4. Weather.js - This script parses the downloaded file and extracts the variables we want
+
+How to use:
+
+Start getWeather.sh on the command line
+
+Use JQUERY to put the variables below into nice places on the web page
+
+todayTemp
+todayCondition
+todayRainChance
+tomorrowMinTemp
+tomorrowMaxTemp
+tomorrowRainChance
+tomorrowPrecip
+tomorrowCondition
