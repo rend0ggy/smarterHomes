@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="weather.js"></script>
+<style>
+body{
+	font-family: sans-serif;
+	color: #333;
+	background: #e5e5e5;
+}
+.container{
+	margin: 20px;
+	padding: 5px;
+	border: 1px solid #c0c0c0;
+	background: #fff;
+	display:block;
+	width: 33%;
+}
+i{
+	font-size: 5px;
+}
+#today{
+	float: left;
+}
+#tomorrow{
+	float: right;
+}
+</style>
+</head>
+<body>
+
+<div id='today' class='container'>
+<h3>Today</h3>
+<h4>Tempreture</h4>
+<p id="todayTemp"></p>
+<i>Can be accessed through javascript variable <b>todayTemp</b></i>
+<h4>Chance of Rain</h4>
+<p id="todayRainChance"></p>
+<i>Can be accessed through javascript variable <b>todayRainChance</b></i>
+<h4>Condition</h4>
+<p id="todayCondition"></p>
+<i>Can be accessed through javascript variable <b>todayCondition</b></i>
+</div>
+
+<div id='tomorrow' class='container'>
+<h3>Tomorrow</h3>
+<h4>Min Tempreture</h4>
+<p id="tomorrowMinTemp"></p>
+<i>Can be accessed through javascript variable <b>tomorrowMinTemp</b></i>
+<h4>Max Tempreture</h4>
+<p id="tomorrowMaxTemp"></p>
+<i>Can be accessed through javascript variable <b>tomorrowMaxTemp</b></i>
+<h4>Chance of Rain</h4>
+<p id="tomorrowRainChance"></p>
+<i>Can be accessed through javascript variable <b>tomorrowRainChance</b></i>
+<h4>Chance of Rain</h4>
+<p id="tomorrowPrecip"></p>
+<i>Can be accessed through javascript variable <b>tomorrowPrecip</b></i>
+<h4>Condition</h4>
+<p id="tomorrowCondition"></p>
+<i>Can be accessed through javascript variable <b>tomorrowCondition</b></i>
+</div>
+
+</body>
+</html>
